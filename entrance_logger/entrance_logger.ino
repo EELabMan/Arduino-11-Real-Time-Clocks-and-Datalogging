@@ -126,13 +126,11 @@ void loop()
       dataFile.close(); //Data isn't actually written until we close the connection!
    
       //Print same thing to the screen for debugging
-      Serial.print(date);
-      Serial.print(F(","));
-      Serial.print(time);
-      Serial.print(F(","));
-      Serial.print(raw);
-      Serial.print(F(","));
-      Serial.println(active);
+
+      Serial.print("RAW VALUE:");
+      Serial.println(raw);
+      Serial.print(F("Active:"));
+      Serial.println(active*250);
     }
     else
     {
