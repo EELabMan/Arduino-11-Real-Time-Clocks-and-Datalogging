@@ -6,7 +6,7 @@ Copyright 2013 Jeremy Blum ( http://www.jeremyblum.com )
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License v3 as published by
 the Free Software Foundation.
-Edited by Tige Kelley to remove Power Pin as it does not supply enough current for our SD card reader / Use the 5V on the 
+Edited by Tige Kelley to change Power Pin for our SD card reader / Use the 3.3V on the 
 Arduino instead.
 */
 
